@@ -143,7 +143,7 @@ const experiences = [
 
 const projects = [
   {
-    id: 'project-1',
+    id: 'project-2',
     name: 'Research.uf',
     description: 'An innovative application for the University of Florida designed to streamline the process of finding and applying for research opportunities.',
     tags: [
@@ -165,7 +165,18 @@ const projects = [
     demo: '',
   },
   {
-    id: 'project-2',
+    id: 'project-5',
+    name: 'Clubfinity',
+    description:
+      'A comprehensive mobile application serving as a centralized hub for all UF campus clubs.',
+    tags: [
+    ],
+    image: photoshop,
+    repo: '',
+    demo: '',
+  },
+  {
+    id: 'project-1',
     name: 'Fresh Watch',
     description:
       'An application that provides an efficient way for customers to track their groceries\' expiration dates.',
@@ -193,17 +204,6 @@ const projects = [
     ],
     image: minesweeper,
     repo: 'https://github.com/lrwilliams33/Minesweeper',
-    demo: '',
-  },
-  {
-    id: 'project-5',
-    name: 'Photoshop Pixel Editor',
-    description:
-      'A command line pixel editor used to overlay, change colors, and reorient pictures.',
-    tags: [
-    ],
-    image: photoshop,
-    repo: 'https://github.com/lrwilliams33/Photoshop-Pixel-Editor',
     demo: '',
   },
 ];
