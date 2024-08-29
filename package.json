@@ -1,7 +1,7 @@
 {
-  "homepage": "https://lrwilliams33.github.io/portfolio",
+  "homepage": ".",
   "name": "portfolio",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
