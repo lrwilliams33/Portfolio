@@ -46,3 +46,5 @@ const App = () => {
 };
 
 export default App;
+
+// to run npm run deploy

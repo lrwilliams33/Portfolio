@@ -15,6 +15,7 @@ import {
   sql,
   mongo,
   miller,
+  oracle,
   clubfinity,
   ace,
   freshwatch,
@@ -45,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Full Stack Developer',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Project/Account Management',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Cloud Technologies',
     icon: ux,
   },
   {
-    title: 'Machine Learning',
+    title: 'Artificial Intelligence',
     icon: machineLearning,
   },
 ];
@@ -112,6 +113,13 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Technical Account Manager Intern',
+    company_name: 'Oracle',
+    icon: oracle,
+    iconBg: '#333333',
+    date: 'May 2025 - Aug 2025',
+  },
+  {
     title: 'Integrated Solutions Intern',
     company_name: 'Miller Electric Company',
     icon: miller,
@@ -119,7 +127,7 @@ const experiences = [
     date: 'May 2024 - Aug 2024',
   },
   {
-    title: 'Full Stack Engineer: Core Product Team',
+    title: 'Full Stack Software Engineer: Core Product Team',
     company_name: 'Clubfinity',
     icon: clubfinity,
     iconBg: '#333333',
@@ -162,7 +170,7 @@ const projects = [
     ],
     image: research,
     repo: 'https://github.com/GatorApps/research.gatorapps.org',
-    demo: '',
+    demo: 'https://researchuf.tiiny.site/',
   },
   {
     id: 'project-5',
@@ -172,8 +180,8 @@ const projects = [
     tags: [
     ],
     image: photoshop,
-    repo: '',
-    demo: '',
+    repo: 'https://github.com/UFSEC/Clubfinity',
+    demo: 'https://clubfinity.tiiny.site/',
   },
   {
     id: 'project-1',
@@ -184,7 +192,7 @@ const projects = [
     ],
     image: freshwatch,
     repo: 'https://github.com/lrwilliams33/FreshWatch',
-    demo: '',
+    demo: 'https://freshwatch.tiiny.site/',
   },
   {
     id: 'project-3',
@@ -204,7 +212,7 @@ const projects = [
     ],
     image: minesweeper,
     repo: 'https://github.com/lrwilliams33/Minesweeper',
-    demo: '',
+    demo: 'https://minesweeperdemo.tiiny.site/',
   },
 ];
 

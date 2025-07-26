@@ -96,7 +96,7 @@ const ProjectCard = ({
                   .setAttribute('src', pineapple);
               }}>
               
-              NO DEMO YET
+              DEMO
             </button>
           </div>
         </>
@@ -120,8 +120,8 @@ const Projects = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
           These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos (not yet available). They showcase my ability to tackle
+          some of my work, including brief descriptions, links to code
+          repositories, and picture demos. They showcase my ability to tackle
           intricate challenges, adapt to various technologies, and efficiently
           oversee projects.
         </motion.p>

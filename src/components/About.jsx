@@ -37,12 +37,16 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Hello! I am a third-year Computer Science student at the University of Florida, currently enrolled in the Honors College. 
-        With a passion for innovative technology and a dedication to academic excellence, I have developed and contributed to several 
-        impactful projects, including a self-driving bus system for the city of Jacksonville, a research application platform for university
-        students, and a grocery expiration tracking app. My diverse experiences have equipped me with a strong foundation in software development,
-        problem-solving, and project management. I am eager to leverage my skills and knowledge to drive technological advancements and create 
-        meaningful solutions.
+        Hi! I’m Landon Williams, a forth-year Computer Science student at the University of Florida’s Honors College 
+        with a minor in Business Administration. I’m passionate about building impactful tech solutions that bridge 
+        innovation and real-world needs. Most recently, I interned at Oracle, where I led the development of a GenAI-powered 
+        chatbot using Oracle Cloud, LangChain, Cohere, and vector search to help teams extract insights from large internal 
+        documents. The solution was adopted by multiple teams and showcased to Oracle executives. Previously, I contributed 
+        to Jacksonville’s $400M self-driving bus project through a technical project management internship at Miller Electric, 
+        and I’ve led the development of projects like Fresh Watch, a grocery tracking app with AI meal suggestions, and 
+        Research.uf, a centralized platform for student research opportunities. With experience in software development, 
+        cloud technologies, and cross-functional collaboration, I enjoy solving meaningful problems at the intersection 
+        of tech and business.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

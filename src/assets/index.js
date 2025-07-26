@@ -39,6 +39,7 @@ import mongo from './tech/mongo.png';
 import ace from './company/ace.png';
 import clubfinity from './company/clubfinity.png'
 import miller from './company/miller.png'
+import oracle from './company/oracle.png';
 
 import research from './projects/research.png'
 import freshwatch from './projects/freshwatch.png'
@@ -59,6 +60,7 @@ export {
   ux,
   sql,
   miller,
+  oracle,
   research,
   mongo,
   frontend,
